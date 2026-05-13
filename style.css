@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: DM Sans;
+}
+
+body {
+  background-color: #111827;
+}
+
+.container {
+  width: 1287px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-title {
+  font-size: 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navlinks {
+  list-style: none;
+  gap: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.navlinks li a {
+  color: white;
+  font-size: 14px;
+}
+
+.navlinks li button {
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.hero-title h1 {
+  color: #d946ef;
+  font-size: 58px;
+}
+
+.hero-title p {
+  margin: 29px;
+  color: #e5e7eb;
+  font-size: 15px;
+}
+
+.hero-title button {
+  margin: 31px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px 40px;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+}
+
+.hero-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-all h1 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+}
+
+.title2 {
+    font-size: 16px;
+    margin-top: 30px;
+    
+    text-align: center;
+    color: white;
+}
+
+.service-card {
+    color: white;
+    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+    width: 370px;
+    text-align: center;
+    border: none;
+    border-radius: 34px;
+    padding: 37px 23px;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-top: 19px;
+}
+
+.service-card p {
+    margin-top: 17px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.service-card a {
+    color: white;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.project-title  button {
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.project-title h1 {
+    font-size: 42px;
+    color: white;
+}
+
+.project-title p {
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project-all {
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
